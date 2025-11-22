@@ -2,6 +2,8 @@ import kagglehub
 import shutil
 import os
 
+import os
+os.environ["KAGGLEHUB_CACHE"] = "I:/kagglehub_cache"
 # 下载数据集
 path = kagglehub.dataset_download("rajat95gupta/smartphone-image-denoising-dataset")
 print("Downloaded to:", path)
