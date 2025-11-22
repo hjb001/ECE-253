@@ -1,0 +1,26 @@
+# Ignore all .png files
+*.png
+
+# Ignore all .zip files
+*.zip
+
+# Ignore macOS specific files and folders
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Ignore macOS temporary files
+.Spotlight-V100
+.Trashes
+.AppleDB
+Thumbs.db
+
+# Ignore macOS system folders
+__MACOSX/
+
+# Ignore data folder and its contents
+data/SIDD_Small_sRGB_Only
+
+# Ignore wandb logs
+wandb/
