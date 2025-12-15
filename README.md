@@ -5,13 +5,13 @@ All technical details, methods, and running instructions are documented in the `
 
 ## Structure
 
-- `Real-Noise-Reduction/`  
+- `Denoising/`  
   - Author: **Junbo Huang** (ID: A69032266)
 
 - `JPEG-Artifacts-Reduction/`  
   - Author: **Ziming Xu** (ID: A69031906)
 
-- `Underwater-Distortion-Removal/`  
+- `Underwater Restoration/`  
   - Author: **Haifan Zhao** (ID: A69041804)
 
 Please refer to the individual `README.md` files in each subfolder for method descriptions, datasets, training/inference commands, and evaluation details.
