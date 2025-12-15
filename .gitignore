@@ -3,12 +3,16 @@
 
 # Ignore all .zip files
 *.zip
+*.pth
+*.out
+._pycache_
 
 # Ignore macOS specific files and folders
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
+.txt
 
 # Ignore macOS temporary files
 .Spotlight-V100
@@ -24,3 +28,7 @@ data/SIDD_Small_sRGB_Only
 
 # Ignore wandb logs
 wandb/
+data/real_Test
+__pycache__/learnable_denoising_v2.cpython-39.pyc
+process_test.py
+real_test_denoise_results/metrics.txt

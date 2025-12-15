@@ -3,15 +3,15 @@ import shutil
 import os
 
 import os
-os.environ["KAGGLEHUB_CACHE"] = "I:/kagglehub_cache"
-# 下载数据集
+os.environ["KAGGLEHUB_CACHE"] = os.path.join(os.getcwd(), "kagglehub_cache")
+# Download dataset
 path = kagglehub.dataset_download("rajat95gupta/smartphone-image-denoising-dataset")
 print("Downloaded to:", path)
 
-# 目标目录（当前目录）
-target_dir = "./"  # 或者 os.getcwd()
+# Target directory (current directory)
+target_dir = "./"  # or os.getcwd()
 
-# 将下载好的内容复制到当前目录
+# Copy the downloaded content to the current directory
 for item in os.listdir(path):
     s = os.path.join(path, item)
     d = os.path.join(target_dir, item)
