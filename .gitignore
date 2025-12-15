@@ -24,11 +24,11 @@ Thumbs.db
 __MACOSX/
 
 # Ignore data folder and its contents
-data/SIDD_Small_sRGB_Only
+Denoising/data/SIDD_Small_sRGB_Only
 
 # Ignore wandb logs
 wandb/
-data/real_Test
+Denoising/data/real_Test
 __pycache__/learnable_denoising_v2.cpython-39.pyc
 process_test.py
 real_test_denoise_results/metrics.txt
